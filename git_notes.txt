@@ -1,0 +1,12 @@
+*git her zaman master olarak branch olusturur.
+git status 
+git branch
+git branch -v
+
+git branch test
+git checkout test
+
+git log 
+
+*** yapılan degısıklıklerı gecıcı olarak kaydetme ısıne stash denır
+
