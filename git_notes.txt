@@ -10,3 +10,8 @@ git log
 
 *** yapılan degısıklıklerı gecıcı olarak kaydetme ısıne stash denır
 
+git stash
+git stash pop
+git stash list
+git stash apply
+
