@@ -15,3 +15,20 @@ git stash pop
 git stash list
 git stash apply
 
+conflict durumunda .orig dosyası olusturulur.
+
+git rebase kavramı:
+branch olusturulma yeri baz alınır.
+branch aktif iken rebase komutu verilirse (rewind) ile geriye gidiyor. branch dallanma yerine
+master branch de eğer commit atılmıs ise, atılan commitlerde eklenir
+eklendikten sonra branch dallanma yeniden yapılır.
+branch de yapılan commitler de dallanmada ayrıca gösterilir.
+
+git commit -a -m "test"
+
+git checkout -b branchName
+
+git rebase --abort
+
+git rebase --continue
+
